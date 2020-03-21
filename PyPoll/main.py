@@ -37,7 +37,10 @@ with open(election_csv_path,'r') as election_csv:
         print("Candidate Name: " + str(candidate_name_clean) + " Total Votes: " + str(candidate_dictionary[candidate_name]))
         
 
-          
+    for key in candidate_dictionary:
+        key_break_list = key.split("\n")
+        percent_vote = round((candidate_dictionary[key] / count * 100), 2)
+        print("Percent of votes: " + key_break_list[0] + " - " + str(percent_vote) + "%")
         
 
 
