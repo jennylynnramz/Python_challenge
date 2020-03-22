@@ -1,0 +1,5 @@
+Total Months: 86
+Profit/Losses net total: 38382578
+Average Change: 446309.05
+The month with the highest profit was Feb-2012 with a profit of $1170593
+The month with the lowest profit was Sep-2013 with a loss of $-1196225

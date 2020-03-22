@@ -58,4 +58,5 @@ with open(election_csv_path,'r') as election_csv:
     output_file.write("\n" + "The winning candidate is: " + max_cand_name.split("\n")[0] + " with " + str(max_cand_votes) + " votes."  + "\n")
 
 #In addition, your final script should both print the analysis to the terminal and export a text file with the results
+output_file.close()
 
